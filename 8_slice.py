@@ -11,3 +11,8 @@ print("from any place -",x[3:9])
 # accordin to length
 
 print("from any to last", x[5 :len(x)-1])
+
+
+print("hidden -", x[-3:-1]) 
+# or - means it will take length by default
+print("hidden -", x[len(x)-3:len(x)-1])
