@@ -16,3 +16,6 @@ for i in range(6):
  
 else:
     print("not printed mean loop breaked")   
+
+
+# same thing with while loop also 
