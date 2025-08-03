@@ -8,7 +8,13 @@ try :
     for i in range(1,5):
         print(i + int(val))
 except Exception as err:
+# or only except: 
     print("input is invalid" , err) # err will show but aloow to excuter next line
+    
+except ValueError:
+    print("erron in value")
+except IndexError:
+    print("error in INdex")
     
     
 print("your code is fine now")
